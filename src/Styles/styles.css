@@ -7,6 +7,10 @@
   transition: color 200ms ease-in-out;
 }
 
+.border_right {
+  border-right: #7e7d7d 1px solid;
+}
+
 .navbar_link:hover {
   color: #ffffff;
 }

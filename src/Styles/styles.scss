@@ -8,8 +8,8 @@
    transition: color  200ms ease-in-out;
 }
 
-.border_left{
-  border-left:#7e7d7d 1px solid;  
+.border_right{
+  border-right:#7e7d7d 2px solid;  
 }
 
 .navbar_link:hover{
@@ -20,3 +20,53 @@
 .navbar_link:focus{
     color: #ffffff;
 }
+
+.icon-size{
+    width: 25px;
+    height: 25px;
+}
+
+.img_box{
+  height: 300px;
+}
+
+
+
+.small_border_bottom_top_seporated{
+    display:inline-block;
+    margin-top: 20px;
+    border-bottom: 3px solid rgb(255, 170, 0);
+    width: 50px;
+    border-radius: 50px;
+}
+
+
+@keyframes slideDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes slideUp {
+    0% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(-100%);
+    }
+  }
+
+  .slide-down {
+    animation: slideDown 0.2s ease-in;
+  }
+
+  .slide-up {
+    animation: slideUp 0.2s ease-out;
+  }

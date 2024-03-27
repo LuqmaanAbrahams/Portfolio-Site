@@ -106,10 +106,9 @@
                         <p>I began my learning journey at Monash University South Africa(IIEMSA) where i obtained my
                             Bachelors degree in Computer and Information Sciences.</p>
                         <img class="img-fluid border rounded-5" src="images/IIEMSApic.png" alt="IIEMSA picture">
-                        <button class="btn btn-dark btn-outline-warning mt-2"
-                            style="display:block; margin-left:auto;margin-right:auto;"><a
-                                href="https://www.iiemsa.co.za/" style="text-decoration: none;color:rgb(255, 170, 0)"
-                                target="_blank">Visit
+                        <button class="btn btn-dark btn-outline-warning btn_custom mt-2"
+                            style="display:block; margin-left:auto;margin-right:auto;"><a class="link-warning"
+                                href="https://www.iiemsa.co.za/" style="text-decoration: none;" target="_blank">Visit
                                 IIEMSA</a></button>
                     </div>
                 </div>
@@ -120,15 +119,42 @@
                     <p>Throughout my learning journey, i have learnt many skills that have aided me in increasing my
                         knowledge and understanding of my field of study. These skills range from software
                         development,database design and integration, Website development, UI design and requirements
-                        gathering as well as some flexible skills that apply to almost every field of study such as problem solving and creative thinking.</p>
-                    <div class="navbar">
-                    <h3 class="mt-3">Website Development</h1>
-                    <div class="small_border_bottom_top_seporated_sub"
-                        style="margin-top: 5px !important;"></div>
+                        gathering as well as some flexible skills that apply to almost every field of study such as
+                        problem solving and creative thinking.</p>
+
+                    <ul class=" nav nav-tabs " id="skill_tabs" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button style="text-decoration: none;border-color:rgb(255, 170, 0);"
+                                class="nav-link btn-dark btn_custom text-warning active" id="web-tab"
+                                data-bs-toggle="tab" data-bs-target="#webdev" type="button" role="tab"
+                                aria-controls="webdev" aria-selected="true">Website Development</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button style="text-decoration: none;border-color:rgb(255, 170, 0);"
+                                class="nav-link btn-dark btn_custom text-warning" id="soft-tab" data-bs-toggle="tab"
+                                data-bs-target="#softdev" type="button" role="tab" aria-controls="softdev"
+                                aria-selected="false">Software Development</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button style="text-decoration: none;border-color:rgb(255, 170, 0);"
+                                class="nav-link btn-dark btn_custom text-warning" id="data-tab" data-bs-toggle="tab"
+                                data-bs-target="#data" type="button" role="tab" aria-controls="data"
+                                aria-selected="false">Database
+                                Design/Integration</button>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="webdev" role="tabpanel" aria-labelledby="web-tab">
+                            webdev</div>
+                        <div class="tab-pane fade" id="softdev" role="tabpanel" aria-labelledby="soft-tab">softdev</div>
+                        <div class="tab-pane fade" id="data" role="tabpanel" aria-labelledby="data-tab">data</div>
                     </div>
 
                 </div>
+
             </div>
+        </div>
         </div>
     </section>
     <script src="Scripts/script.js" type="module"></script>

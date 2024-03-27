@@ -29,6 +29,20 @@
   height: 300px;
 }
 
+.link-warning:hover {
+  color: black !important;
+}
+
+.btn_custom:hover {
+  background-color: #ffc107 !important;
+  color: black !important;
+}
+
+.btn_custom:active {
+  background-color: #ffc107 !important;
+  color: black !important;
+}
+
 .small_border_bottom_top_seporated {
   display: inline-block;
   margin-top: 20px;

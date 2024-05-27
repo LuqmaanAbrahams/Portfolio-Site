@@ -13,13 +13,14 @@
 }
 
 .navbar_link:hover{
-    color: #ffffff;
+    color: #ffc107;
 }
 
 .navbar_link:active,
 .navbar_link:focus{
-    color: #ffffff;
+    color: #ffc107 !important;
 }
+
 
 .icon-size{
     width: 25px;
@@ -41,10 +42,11 @@
 }
 
 .btn_custom:active{
-
   background-color: #ffc107 !important;
   color:black !important;
 }
+
+
 
 .small_border_bottom_top_seporated{
     display:inline-block;
@@ -62,7 +64,15 @@
     border-radius: 50px;
 }
 
+.list_group{
+  color:#ffc107 !important;
 
+}
+
+.list_groupitem_dark{
+  background-color: rgb(71, 71, 71);
+  color:#ffc107 !important;
+}
 
 
 @keyframes slideDown {

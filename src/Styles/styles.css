@@ -12,12 +12,12 @@
 }
 
 .navbar_link:hover {
-  color: #ffffff;
+  color: #ffc107;
 }
 
 .navbar_link:active,
 .navbar_link:focus {
-  color: #ffffff;
+  color: #ffc107 !important;
 }
 
 .icon-size {
@@ -57,6 +57,15 @@
   border-bottom: 3px solid rgb(100, 100, 100);
   width: 200px;
   border-radius: 50px;
+}
+
+.list_group {
+  color: #ffc107 !important;
+}
+
+.list_groupitem_dark {
+  background-color: rgb(71, 71, 71);
+  color: #ffc107 !important;
 }
 
 @keyframes slideDown {

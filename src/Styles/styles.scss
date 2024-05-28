@@ -74,6 +74,56 @@
   color:#ffc107 !important;
 }
 
+//Contact section//
+.contact-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #2a2727;
+  border-radius: 8px;
+  border: 1px solid #ffc107;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+.form-group label {
+  font-weight: bold;
+}
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ffc107; /* Border color when not focused */
+    border-radius: 4px;
+    font-size: 14px;
+    color: white;
+    background-color: rgb(71, 71, 71); /* Lighter background color */
+    transition: border-color 0.3s ease; /* Smooth transition for border color */
+}
+
+.form-group input[type="text"]:focus,
+.form-group input[type="email"]:focus,
+.form-group textarea:focus {
+    border-color: #ffc107; /* Border color when focused */
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+.form-group button {
+  background-color: rgb(71, 71, 71);
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.form-group button:hover {
+  background-color: rgb(37, 37, 37);
+  border: 1px solid #ffc107;
+}
+//----------------------------
 
 @keyframes slideDown {
     0% {
